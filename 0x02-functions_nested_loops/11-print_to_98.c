@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_numbers - prints all natural numbers from n to 98
- * n: starting number
+ * n: starting num:iber
  *
  * Return: void
  */
