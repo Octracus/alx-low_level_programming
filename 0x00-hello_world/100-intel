@@ -1,3 +1,2 @@
 #!/bin/bash
-BASENAME=$(basename "$CFILE" .c)
-gcc -S -masm=intel "$CFILE" -o "${BASENAME}.s"
+gcc -S -masm=intel -Og -fverbose-asm test.c
