@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) //This function displays lowercase and then uppercase alphabets//
+int main(void) /*This function displays lowercase and then uppercase alphabets*/
 {
 	char c;
 
