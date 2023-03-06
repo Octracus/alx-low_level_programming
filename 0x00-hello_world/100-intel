@@ -1,0 +1,3 @@
+#!/bin/bash
+BASENAME=$(basename "$CFILE" .c)
+gcc -S -masm=intel "$CFILE" -o "${BASENAME}.s"
