@@ -1,17 +1,15 @@
 /**
- * print_chessboard2 - prints the chessboard using while loop
+ * print_chessboard - prints the chessboard
  * a: 2D array representing the chessboard
  */
-void print_chessboard2(char (*a)[8])
+void print_chessboard(char (*a)[8])
 {
-	int i = 0, j;
-   
-	while (i < 8)
+	int i, j;
+
+	for (i = 0; i < 8; i++)
 	{
-		j = 0;
-		while (j < 8)
-			putchar(a[i][j++]);
-		putchar('\n');
-		i++;
+		for (j = 0; j < 8; j++)
+			_putchar(a[i][j]);
+		_putchar('\n');
 	}
 }
