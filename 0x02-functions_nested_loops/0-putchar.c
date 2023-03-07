@@ -2,6 +2,7 @@
 #include<stdio.h>
 /**
  * main - prints "_putchar", followed by a new line
+ * c: character identifier
  *
  * Return: Always 0 (Success)
  */
