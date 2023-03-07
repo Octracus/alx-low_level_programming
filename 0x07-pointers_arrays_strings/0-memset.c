@@ -9,9 +9,11 @@
  *
  * Return: pointer to the filled memory area
  */
-char *_memset(char *s, char b, unsigned int n)
+int main()
 {
-	while (n--)
-		s[n] = b;
-	return (s);
+	char buffer[BUFSIZ];
+
+	memset(buffer, '\0', BUFSIZ);
+	puts("Buffer initialized");
+	return(0);
 }
