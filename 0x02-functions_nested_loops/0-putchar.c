@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-int _putchar(char);
+int _putchar();
 
 int main(void)
 {
