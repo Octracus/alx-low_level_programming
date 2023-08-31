@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _pow_recursion: returns the valuw of x raised to the exponent of y
- * x: value to be raised
- * y: exponent
+ * _pow_recursion: returns the value of x power y
+ * @x: value to be raised
+ * @y: exponent
  * Return: x to the power y
  */
 int _pow_recursion(int x, int y)
