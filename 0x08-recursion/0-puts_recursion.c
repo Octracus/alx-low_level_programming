@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * Recursive function
  * _puts_recursion: Function to print a string followed by a new line
  * @s: String
  *
